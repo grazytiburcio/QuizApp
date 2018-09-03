@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="height_ImageView">130dp</dimen>
+    <dimen name="marginLeft_ImageView">10dp</dimen>
+    <dimen name="marginRight_ImageView">10dp</dimen>
+    <dimen name="marginLeft_TextView">16dp</dimen>
+    <dimen name="marginRight_TextView">16dp</dimen>
+    <dimen name="marginLeft_RadioButton">10dp</dimen>
+    <dimen name="marginTop_RadioButton">10dp</dimen>
+    <dimen name="marginTop_TextView">16dp</dimen>
+    <dimen name="marginLeft_EditText">16dp</dimen>
+    <dimen name="marginRight_EditText">16dp</dimen>
+    <dimen name="marginLeft_CheckBox">10dp</dimen>
+    <dimen name="marginTop_CheckBox">10dp</dimen>
+    <dimen name="marginBottom_TextView">10dp</dimen>
+    <dimen name="marginBottom_Button">16dp</dimen>
+    <dimen name="marginRight_Button">20dp</dimen>
+    <dimen name="marginLeft_Button">20dp</dimen>
+</resources>

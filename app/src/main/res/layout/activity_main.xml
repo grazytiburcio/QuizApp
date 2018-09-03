@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context="com.example.android.quizapp.MainActivity">
+
+        <ImageView
+            android:id="@+id/friends_logo_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_ImageView"
+            android:layout_marginEnd="@dimen/marginRight_ImageView"
+            android:layout_marginLeft="@dimen/marginLeft_ImageView"
+            android:layout_marginRight="@dimen/marginRight_ImageView"
+            android:layout_marginStart="@dimen/marginLeft_ImageView"
+            android:contentDescription="@string/contentDescription_friends_logo"
+            android:src="@drawable/friends_logo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/marginRight_TextView"
+            android:layout_marginLeft="@dimen/marginLeft_TextView"
+            android:layout_marginRight="@dimen/marginRight_TextView"
+            android:layout_marginStart="@dimen/marginLeft_TextView"
+            android:text="@string/question1"
+            android:textColor="@color/colorText" />
+
+        <RadioGroup
+            android:id="@+id/question1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/monica_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:layout_marginTop="@dimen/marginTop_RadioButton"
+                android:text="@string/monica_a_question1" />
+
+            <RadioButton
+                android:id="@+id/emily_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/emily_b_question1" />
+
+            <RadioButton
+                android:id="@+id/amy_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/amy_c_question1" />
+
+            <RadioButton
+                android:id="@+id/emma_right_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/emma_d_question1" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/marginRight_TextView"
+            android:layout_marginLeft="@dimen/marginLeft_TextView"
+            android:layout_marginRight="@dimen/marginRight_TextView"
+            android:layout_marginStart="@dimen/marginLeft_TextView"
+            android:layout_marginTop="@dimen/marginTop_TextView"
+            android:text="@string/question2"
+            android:textColor="@color/colorText" />
+
+        <RadioGroup
+            android:id="@+id/question2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/hootie_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:layout_marginTop="@dimen/marginTop_RadioButton"
+                android:text="@string/hootie_a_question2" />
+
+            <RadioButton
+                android:id="@+id/quick_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/quick_b_question2" />
+
+            <RadioButton
+                android:id="@+id/oizo_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/oizo_c_question2" />
+
+            <RadioButton
+                android:id="@+id/rembrandts_right_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/rembrandts_d_question2" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/marginRight_TextView"
+            android:layout_marginLeft="@dimen/marginLeft_TextView"
+            android:layout_marginRight="@dimen/marginRight_TextView"
+            android:layout_marginStart="@dimen/marginLeft_TextView"
+            android:layout_marginTop="@dimen/marginTop_TextView"
+            android:text="@string/question3"
+            android:textColor="@color/colorText" />
+
+        <RadioGroup
+            android:id="@+id/question3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/hate_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:layout_marginTop="@dimen/marginTop_RadioButton"
+                android:text="@string/hate_a_question3" />
+
+            <RadioButton
+                android:id="@+id/love_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/love_b_question3" />
+
+            <RadioButton
+                android:id="@+id/kill_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/kill_c_question3" />
+
+            <RadioButton
+                android:id="@+id/omg_right_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/omg_d_question3" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/marginRight_TextView"
+            android:layout_marginLeft="@dimen/marginLeft_TextView"
+            android:layout_marginRight="@dimen/marginRight_TextView"
+            android:layout_marginStart="@dimen/marginLeft_TextView"
+            android:layout_marginTop="@dimen/marginTop_TextView"
+            android:text="@string/question4"
+            android:textColor="@color/colorText" />
+
+        <RadioGroup
+            android:id="@+id/question4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/ross_phoebe_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:layout_marginTop="@dimen/marginTop_RadioButton"
+                android:text="@string/ross_phoebe_a_question4" />
+
+            <RadioButton
+                android:id="@+id/monica_chandler_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/monica_chandler_b_question4" />
+
+            <RadioButton
+                android:id="@+id/ross_rachel_right_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/ross_rachel_c_question4" />
+
+            <RadioButton
+                android:id="@+id/joey_phoebe_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/joey_phoebe_d_question4" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/marginRight_TextView"
+            android:layout_marginLeft="@dimen/marginLeft_TextView"
+            android:layout_marginRight="@dimen/marginRight_TextView"
+            android:layout_marginStart="@dimen/marginLeft_TextView"
+            android:layout_marginTop="@dimen/marginTop_TextView"
+            android:text="@string/question5"
+            android:textColor="@color/colorText" />
+
+        <RadioGroup
+            android:id="@+id/question5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/al_pacino_right_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:layout_marginTop="@dimen/marginTop_RadioButton"
+                android:text="@string/al_pacino_a_question5" />
+
+            <RadioButton
+                android:id="@+id/robert_de_niro_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/robert_de_niro_b_question5" />
+
+            <RadioButton
+                android:id="@+id/jack_nicholson_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/jack_nicholson_c_question5" />
+
+            <RadioButton
+                android:id="@+id/dustin_hoffman_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/dustin_hoffman_d_question5" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/marginRight_TextView"
+            android:layout_marginLeft="@dimen/marginLeft_TextView"
+            android:layout_marginRight="@dimen/marginRight_TextView"
+            android:layout_marginStart="@dimen/marginLeft_TextView"
+            android:layout_marginTop="@dimen/marginTop_TextView"
+            android:text="@string/question6"
+            android:textColor="@color/colorText" />
+
+        <RadioGroup
+            android:id="@+id/question6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/stella_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:layout_marginTop="@dimen/marginTop_RadioButton"
+                android:text="@string/stella_a_question6" />
+
+            <RadioButton
+                android:id="@+id/agatha_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/agatha_b_question6" />
+
+            <RadioButton
+                android:id="@+id/maude_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/maude_c_question6" />
+
+            <RadioButton
+                android:id="@+id/muriel_right_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/muriel_d_question6" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/marginRight_TextView"
+            android:layout_marginLeft="@dimen/marginLeft_TextView"
+            android:layout_marginRight="@dimen/marginRight_TextView"
+            android:layout_marginStart="@dimen/marginLeft_TextView"
+            android:layout_marginTop="@dimen/marginTop_TextView"
+            android:text="@string/question7"
+            android:textColor="@color/colorText" />
+
+        <RadioGroup
+            android:id="@+id/question7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/monica_right_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:layout_marginTop="@dimen/marginTop_RadioButton"
+                android:text="@string/monica_a_question7" />
+
+            <RadioButton
+                android:id="@+id/rachel_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/rachel_b_question7" />
+
+            <RadioButton
+                android:id="@+id/phoebe_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/phoebe_c_question7" />
+
+            <RadioButton
+                android:id="@+id/ross_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/ross_d_question7" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/marginRight_TextView"
+            android:layout_marginLeft="@dimen/marginLeft_TextView"
+            android:layout_marginRight="@dimen/marginRight_TextView"
+            android:layout_marginStart="@dimen/marginLeft_TextView"
+            android:layout_marginTop="@dimen/marginTop_TextView"
+            android:text="@string/question8"
+            android:textColor="@color/colorText" />
+
+        <RadioGroup
+            android:id="@+id/question8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/zero_a"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:layout_marginTop="@dimen/marginTop_RadioButton"
+                android:text="@string/_0_a_question8" />
+
+            <RadioButton
+                android:id="@+id/one_b"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/_1_b_question8" />
+
+            <RadioButton
+                android:id="@+id/two_right_c"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/_2_c_question8" />
+
+            <RadioButton
+                android:id="@+id/three_d"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_RadioButton"
+                android:layout_marginStart="@dimen/marginLeft_RadioButton"
+                android:text="@string/_3_d_question8" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/marginRight_TextView"
+            android:layout_marginLeft="@dimen/marginLeft_TextView"
+            android:layout_marginRight="@dimen/marginRight_TextView"
+            android:layout_marginStart="@dimen/marginLeft_TextView"
+            android:layout_marginTop="@dimen/marginTop_TextView"
+            android:text="@string/question9"
+            android:textColor="@color/colorText" />
+
+        <EditText
+            android:id="@+id/joey_name_field"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/marginRight_EditText"
+            android:layout_marginLeft="@dimen/marginLeft_EditText"
+            android:layout_marginRight="@dimen/marginRight_EditText"
+            android:layout_marginStart="@dimen/marginLeft_EditText"
+            android:hint="@string/hint_name_question9"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/marginRight_TextView"
+            android:layout_marginLeft="@dimen/marginLeft_TextView"
+            android:layout_marginRight="@dimen/marginRight_TextView"
+            android:layout_marginStart="@dimen/marginLeft_TextView"
+            android:layout_marginTop="@dimen/marginTop_TextView"
+            android:text="@string/question10"
+            android:textColor="@color/colorText" />
+
+        <CheckBox
+            android:id="@+id/ross_rachel_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_CheckBox"
+            android:layout_marginStart="@dimen/marginLeft_CheckBox"
+            android:layout_marginTop="@dimen/marginTop_CheckBox"
+            android:text="@string/ross_rachel_checkbox_question10" />
+
+        <CheckBox
+            android:id="@+id/chandler_monica_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_CheckBox"
+            android:layout_marginStart="@dimen/marginLeft_CheckBox"
+            android:text="@string/chandler_monica_checkbox_question10" />
+
+        <CheckBox
+            android:id="@+id/ross_emily_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_CheckBox"
+            android:layout_marginStart="@dimen/marginLeft_CheckBox"
+            android:text="@string/ross_emily_checkbox_question10" />
+
+        <CheckBox
+            android:id="@+id/mike_phoebe_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/marginLeft_CheckBox"
+            android:layout_marginStart="@dimen/marginLeft_CheckBox"
+            android:text="@string/mike_phoebe_checkbox_question10" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/marginRight_TextView"
+            android:layout_marginLeft="@dimen/marginLeft_TextView"
+            android:layout_marginRight="@dimen/marginRight_TextView"
+            android:layout_marginStart="@dimen/marginLeft_TextView"
+            android:layout_marginTop="@dimen/marginTop_TextView"
+            android:text="@string/which_friend_character_are_you"
+            android:textColor="@color/colorText" />
+
+        <EditText
+            android:id="@+id/which_friend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/marginRight_EditText"
+            android:layout_marginLeft="@dimen/marginLeft_EditText"
+            android:layout_marginRight="@dimen/marginRight_EditText"
+            android:layout_marginStart="@dimen/marginLeft_EditText"
+            android:hint="@string/hint_name_which_friend"
+            android:inputType="textCapWords" />
+
+        <TextView
+            android:id="@+id/score_summary_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/marginBottom_TextView"
+            android:layout_marginEnd="@dimen/marginRight_TextView"
+            android:layout_marginLeft="@dimen/marginLeft_TextView"
+            android:layout_marginRight="@dimen/marginRight_TextView"
+            android:layout_marginStart="@dimen/marginLeft_TextView"
+            android:layout_marginTop="@dimen/marginTop_TextView"
+            android:text=""
+            android:textColor="@color/colorText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottom_Button"
+                android:layout_marginEnd="@dimen/marginRight_Button"
+                android:layout_marginLeft="@dimen/marginLeft_Button"
+                android:layout_marginRight="@dimen/marginRight_Button"
+                android:layout_marginStart="@dimen/marginLeft_Button"
+                android:layout_weight="0.5"
+                android:onClick="submitQuiz"
+                android:text="@string/submit_button" />
+
+            <Button
+                android:id="@+id/reset_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/marginBottom_Button"
+                android:layout_marginEnd="@dimen/marginRight_Button"
+                android:layout_marginLeft="@dimen/marginLeft_Button"
+                android:layout_marginRight="@dimen/marginRight_Button"
+                android:layout_marginStart="@dimen/marginLeft_Button"
+                android:layout_weight="0.5"
+                android:onClick="resetQuiz"
+                android:text="@string/reset_button" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

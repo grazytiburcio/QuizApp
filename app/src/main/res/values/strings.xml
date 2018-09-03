@@ -1,0 +1,70 @@
+<resources>
+    <!-- App name -->
+    <string name="app_name">Quiz App</string>
+    <!-- Content description ImageView -->
+    <string name="contentDescription_friends_logo">friends_logo</string>
+    <!-- Question 1 -->
+    <string name="question1">1. What is the name of Rachel\'s child?</string>
+    <string name="monica_a_question1">Monica</string>
+    <string name="emily_b_question1">Emily</string>
+    <string name="amy_c_question1">Amy</string>
+    <string name="emma_d_question1">Emma</string>
+    <!-- Question 2 -->
+    <string name="question2">2. Which band sing the Friends theme tune?</string>
+    <string name="hootie_a_question2">Hootie and the Blowfish</string>
+    <string name="quick_b_question2">The Quick</string>
+    <string name="oizo_c_question2">Mr Oizo</string>
+    <string name="rembrandts_d_question2">The Rembrandts</string>
+    <!-- Question 3 -->
+    <string name="question3">3. What are the three words does Janice say a lot?</string>
+    <string name="hate_a_question3">I hate cooking</string>
+    <string name="love_b_question3">I love you</string>
+    <string name="kill_c_question3">Kill me now</string>
+    <string name="omg_d_question3">Oh my God</string>
+    <!-- Question 4 -->
+    <string name="question4">4. Who gets married in Las Vegas?</string>
+    <string name="ross_phoebe_a_question4">Ross and Phoebe</string>
+    <string name="monica_chandler_b_question4">Monica and Chandler</string>
+    <string name="ross_rachel_c_question4">Ross and Rachel</string>
+    <string name="joey_phoebe_d_question4">Joey and Phoebe</string>
+    <!-- Question 5 -->
+    <string name="question5">5. Joey was cast as the butt double for which Hollywood star?</string>
+    <string name="al_pacino_a_question5">Al Pacino</string>
+    <string name="robert_de_niro_b_question5">Robert De Niro</string>
+    <string name="jack_nicholson_c_question5">Jack Nicholson</string>
+    <string name="dustin_hoffman_d_question5">Dustin Hoffman</string>
+    <!-- Question 6 -->
+    <string name="question6">6. What is Chandler\'s middle name?</string>
+    <string name="stella_a_question6">Stella</string>
+    <string name="agatha_b_question6">Agatha</string>
+    <string name="maude_c_question6">Maude</string>
+    <string name="muriel_d_question6">Muriel</string>
+    <!-- Question 7 -->
+    <string name="question7">7. Which Friend has Joey never kissed?</string>
+    <string name="monica_a_question7">Monica</string>
+    <string name="rachel_b_question7">Rachel</string>
+    <string name="phoebe_c_question7">Phoebe</string>
+    <string name="ross_d_question7">Ross</string>
+    <!-- Question 8 -->
+    <string name="question8">8. In the last episode, how many babies do Chandler and Monica have?</string>
+    <string name="_0_a_question8">0</string>
+    <string name="_1_b_question8">1</string>
+    <string name="_2_c_question8">2</string>
+    <string name="_3_d_question8">3</string>
+    <!-- Question 9 -->
+    <string name="question9">9. Which Friend does sometimes use the fake name, Ken Adams?</string>
+    <string name="hint_name_question9">Name</string>
+    <!-- Question 10 -->
+    <string name="question10">10. What are the couples that get married?</string>
+    <string name="ross_rachel_checkbox_question10">Ross and Rachel</string>
+    <string name="chandler_monica_checkbox_question10">Chandler and Monica</string>
+    <string name="ross_emily_checkbox_question10">Ross and Emily</string>
+    <string name="mike_phoebe_checkbox_question10">Mike and Phoebe</string>
+    <!-- Text Which friend character -->
+    <string name="which_friend_character_are_you">Which Friend character are you?</string>
+    <string name="hint_name_which_friend">Name</string>
+    <!-- Label for Submit Button -->
+    <string name="submit_button">SUBMIT</string>
+    <!-- Label for Reset Button -->
+    <string name="reset_button">RESET</string>
+</resources>
